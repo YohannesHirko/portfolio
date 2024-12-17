@@ -26,7 +26,7 @@ function More() {
                     <h1 className="text-white font-jetbrains font-bold text-2xl">
                         More Info
                     </h1>
-                    <Link href={"x.com"} passHref legacyBehavior>
+                    {/* <Link href={"x.com"} passHref legacyBehavior>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function More() {
                                 Resume <MdOutlineArrowOutward />
                             </Button>
                         </a>
-                    </Link>
+                    </Link> */}
                 </div>
                 <TextGenerateEffect
                     words={words}
