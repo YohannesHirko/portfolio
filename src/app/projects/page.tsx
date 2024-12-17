@@ -2,7 +2,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaChevronLeft, FaGithub } from "react-icons/fa";
@@ -12,7 +12,7 @@ import image2 from "../../../public/assets/images/project2.png";
 import { projects } from "@/constants/config";
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2";
 import { Lens } from "@/components/ui/lens";
-const images = {
+const images: Record<string, StaticImageData> = {
     image0,
     image1,
     image2,
