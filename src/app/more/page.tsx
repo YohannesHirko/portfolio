@@ -2,9 +2,7 @@
 import { TextGenerateEffect } from "../../components/ui/text-generate-effect";
 import squidward from "../../../public/assets/images/squidward.png";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { MdOutlineArrowOutward } from "react-icons/md";
+
 import { GlareCard } from "@/components/ui/glare-card";
 function More() {
     const words = `Hi there! My name is Yohannes S. Hirko, But you can just call me John and I'm a full-stack developer based in Addis Ababa, with years of experience creating secure, scalable, and user-friendly web applications. With a background in Software Engineering and a Google Cybersecurity Certification, I focus on building efficient and secure software solutions. 
